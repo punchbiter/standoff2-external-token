@@ -1,6 +1,6 @@
 # standoff 2 external token
 
-usually updated the same day the game updates
+usually (not) updated the same day the game updates 
 
 ## how to use
 
