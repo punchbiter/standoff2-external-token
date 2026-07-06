@@ -1,5 +1,5 @@
 //https://t.me/secretoccanalo
-
+// 0.39.1 
 #include "memory/memory.h"
 #include "process/process_manager.h"
 #include <cstdint>
@@ -7,11 +7,11 @@
 #include <string>
 
 std::string get_token(uint64_t il2cpp) {
-  uint64_t typeinfo = memory_utils::read<uint64_t>(il2cpp + 178288424);
+  uint64_t typeinfo = memory_utils::read<uint64_t>(il2cpp + 178334344);
   if (!typeinfo)
     return "";
 
-  uint64_t staticfields = memory_utils::read<uint64_t>(typeinfo + 0xE8);
+  uint64_t staticfields = memory_utils::read<uint64_t>(typeinfo + 0x148);
   if (!staticfields)
     return "";
 
